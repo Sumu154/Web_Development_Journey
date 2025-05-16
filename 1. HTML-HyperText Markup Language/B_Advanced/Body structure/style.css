@@ -1,0 +1,44 @@
+/*
+Key Differences
+nav ul {}: Styles the <ul> element, affecting the entire list as a single block.
+nav ul li {}: Styles each <li> element individually within the <ul>.
+
+When to Use
+Use nav ul {}: when you need to apply styles to the list container.
+Use nav ul li {}: when you need to apply styles to each list item inside the list.
+
+*/
+
+/* header  part */
+/* pura nav block(violet) er opor apply */
+nav{
+    text-align: right;
+    margin-right: 60px;
+    padding: 20px;
+}
+/* nav blocker vitorer pura ul block er opor apply hbe..
+Remove default padding and margin for the ul and ensure it doesn't affect alignment */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav er vitor list item gular opor individual vabe apply hbe */
+nav ul li{
+    display: inline;
+    margin-left: 50px;    /* Optional: adds spacing between menu items */
+}
+
+/* Style for the links anchor */
+nav ul li a{
+    text-decoration: none;
+}
+
+
+
+
+/* main body */
+
+/*  footer part  */
+

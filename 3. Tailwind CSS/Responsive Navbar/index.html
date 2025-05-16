@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" theme="light">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!-- style css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- tailwind + daisy -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- javascript -->
+        <script src="custom-style.js"></script>
+
+        <!-- text font -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+        </style>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/66cabd1410.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+      <nav class="max-w-[90%] mx-auto py-5 flex justify-between items-center">
+        <a id="brand" class="flex items-center gap-2" href="">
+          <img class="object-cover max-w-12 max-h-12" src="assets/toDesktop.avif" alt="">
+          <span class="text-lg font-bold">toDesktop</span>
+        </a>
+
+        <div id="menu" class="hidden md:flex gap-10">
+          <a href="" class="font-medium hover:text-gray-400">Pricing</a>
+          <a href="" class="font-medium hover:text-gray-400">Docs</a>
+          <a href="" class="font-medium hover:text-gray-400">Changelog</a>
+          <a href="" class="font-medium hover:text-gray-400">Blogs</a>
+          <a href="" class="font-medium hover:text-gray-400">Login</a>
+        </div>
+
+        <button class="hidden lg:flex gap-2 items-center border border-gray-300 px-4 py-2 rounded-lg hover:border-gray-400">
+          <img src="assets/electron.svg" alt="">
+          <span>Electron Developers</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <button class="p-2 lg:hidden" onclick="handleMenu()">
+          <i class="fa-solid fa-bars text-gray-600"></i>
+        </button>
+
+        <!-- <div id="nav-dialog" class="fixed bg-white inset-0 p-3 hidden">
+          <div class="flex justify-between">
+            <a id="brand" class="flex items-center gap-2" href="">
+              <img class="object-cover max-w-12 max-h-12" src="assets/toDesktop.avif" alt="">
+              <span class="text-lg font-bold">toDesktop</span>
+            </a>
+            <button class="p-2 lg:hidden" onclick="handleMenu()">
+              <i class="fa-solid fa-xmark text-gray-600"></i>
+            </button>
+          </div>
+          <div>
+            <a  href="" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"> Pricing </a>
+            <a  href="" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"> Docs </a>
+            <a  href="" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"> Changelog </a>
+            <a  href="" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"> Blogs </a>
+            <a  href="" class="font-medium m-3 p-3 hover:bg-gray-50 block rounded-lg"> Login </a>
+          </div>
+          
+          <div class="h-[1px] bg-gray-300"></div>
+          <button class="flex gap-2 items-center px-4 py-2 rounded-lg hover:bg-gray-50">
+            <img src="assets/electron.svg" alt="">
+            <span>Electron Developers</span>
+          </button>
+        </div> -->
+      </nav>
+    </body>
+
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,21 @@
+.bottle{
+  margin: 10px auto;
+  padding: 20px;
+  border: 2px solid crimson;
+  border-radius: 16px;
+
+}
+
+.bottle img{
+  width: 70%;
+}
+
+.heading{
+  font-size: 36px;
+}
+
+.price{
+  font-size: 28px;
+  font-weight: 500;
+  color: crimson
+}

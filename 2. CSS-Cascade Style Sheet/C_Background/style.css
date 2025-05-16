@@ -1,0 +1,23 @@
+/*
+
+
+*/
+
+.box{
+    margin: 0px;
+    border: 5px solid blueviolet;
+    padding: 5px;
+}
+
+.background{                                          
+    background: blueviolet url('background.jpg') no-repeat center center fixed;    /* color image repeat position attachment*/
+    background-color: aqua;
+    background-image: url(Burger.jpg);
+    background-repeat: repeat-x;   /* horizontally repeat korbe */
+    background-attachment: fixed;   /* background image scrolls with the content or is fixed */
+    background-position: right;      /* Positions the background image */
+    background-size: 20 10;              /* Sets the background image size */
+                                         /* cover mane entire background cover korbe */
+
+
+}

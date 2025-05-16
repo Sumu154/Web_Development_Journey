@@ -1,0 +1,85 @@
+.box{
+    border: 2px dotted purple;
+    width: 600px;
+
+}
+/* static styles */
+.static-box{
+    position: static;
+}
+
+
+/* relative related style */
+.relative-container{
+    background-color: slategrey;
+               /* left theke 200px shore gece  */
+}
+.relative-ring{
+    position: relative;
+    left: 70px;
+    top: -30px;
+}
+.relative-water{
+    position: relative;
+    top: -100px;
+}
+
+/*  absolute related styles */
+.absolute-container{
+    background-color: slategrey;
+    position: relative;         /* parent set kore dilam */
+}                               
+.absolute-ring{
+    position: absolute;
+    left: 50px;           /* jodi kono parent set kore na dei tahole pura webpage take or parent  */
+    top: 50px;            /* mone kore position change korbe   */    
+}
+
+
+/* fixed related styles */
+.fixed-ring{
+    background-color: red;
+    position: fixed;
+    top: 20px;
+    left: 650px;
+}
+
+
+/* Sticky related styles */
+.sticky-baby{
+    position: sticky;
+    top: 200px;
+    left: 200px;
+}
+
+
+/* index related style  */
+.index-baby, .index-ring, .index-water{
+    position: relative;
+}
+
+.index-baby{
+    z-index: 3;
+    left: 30px;
+}
+
+.index-ring{
+    z-index: 2;
+    top: -40px;
+    left: 90px;
+}
+
+.index-water{
+    z-index: 1;
+    top: -190px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.container-one{
+    display: flex;
+    gap: 20px;
+}
+
+.box{
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container-two{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item{
+    background-color: slateblue;
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+@media screen and  (max-width: 576px){
+    .container-one{
+        flex-direction: column;
+    }
+}

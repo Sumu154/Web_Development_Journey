@@ -1,0 +1,32 @@
+.container{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.food{
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.food img{
+    width: 100%;
+}
+
+/* small device */
+@media screen and (max-width: 576px) {      /* web pager size maximum 576 hole ei view ta dekhte pabo,,,beshi hole normal tai dekhbo  */
+    .container{
+        background-color: aquamarine;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* medium device */
+@media screen and (max-width: 992px) and (min-width: 576px){      /* web pager size maximum 576 hole ei view ta dekhte pabo,,,beshi hole normal tai dekhbo  */
+    .container{
+        background-color: gainsboro;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

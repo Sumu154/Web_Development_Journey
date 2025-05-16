@@ -1,0 +1,55 @@
+NoSQL - MongoDB
+
+terminologies in mongodb
+Database  -> Collections -> Document
+ekta Database e onk dhoroner collection thake..as like user_info
+product_info shb ekek dhoroner information,,egula ekekta collection
+abar ekta collection e onk joner info thakbe like user_info te onk user thake
+tokhn ekek ta user ekek ta document hoye jabe
+
+
+   CODE                      Database
+_____________________________________________
+
+mongoose.connect   ->       database create hbe
+model craete       ->       collection create hbe
+CREATE code        ->       document create hbe (mainly eta ekta object hbe)
+
+
+username -> sumaiyatasnim5548
+password -> oxv0gXT2Yv0RNaBQ
+
+
+
+we will use here mongoose
+-> we have 2 servers,,node er and mongodb er
+mongoose help kore ei dui server ke connect korte
+
+terminologies in mongoose
+model -> mongoose blueprint for specific Collection
+      -> model represents a collection.
+
+
+project-root/
+├── config/
+│   ├── db.js                # Database connection setup
+│   ├── environment.js       # Environment variables and configurations
+├── controllers/
+│   ├── userController.js    # Handles user-related logic
+│   ├── productController.js # Handles product-related logic
+├── middlewares/
+│   ├── authMiddleware.js    # Authentication middleware
+│   ├── errorMiddleware.js   # Error handling middleware
+├── models/
+│   ├── userModel.js         # Mongoose schema and model for users
+│   ├── productModel.js      # Mongoose schema and model for products
+├── routes/
+│   ├── userRoutes.js        # Defines user-related routes
+│   ├── productRoutes.js     # Defines product-related routes
+├── utils/
+│   ├── helperFunctions.js   # Utility functions
+│   ├── validation.js        # Input validation logic
+├── .env                     # Environment variables
+├── .gitignore               # Ignored files and folders
+├── package.json             # NPM dependencies and scripts
+├── server.js                # Entry point of the application

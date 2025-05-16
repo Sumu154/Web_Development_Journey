@@ -1,0 +1,9 @@
+1. npm init -y -> package.json create holo
+2. express install
+
+now we will learn
+1. setting up parser
+2. install ejs from npm 
+3. setup ejs as a view engine
+4. setting public static files
+5. dynamic routing create korbo

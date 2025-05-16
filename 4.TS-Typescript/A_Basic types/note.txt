@@ -1,0 +1,4 @@
+1. tsc --init
+2. tsconfig.json e giye
+   rootDir ar outDir thik korte hbe
+   

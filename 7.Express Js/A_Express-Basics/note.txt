@@ -1,0 +1,26 @@
+0. npm init -y
+1. express install 
+2. nodemon diye run dite hbe..
+   node diye run dile auto update hbe na
+
+
+what is session-cookie
+-> 
+amra browser e jekono data rakhte pari
+jokhn backend e kono request kori oi browsere saved data backend e chole jabe
+
+eta most of time authentication er time e lage
+
+login er time e ekta string saved hbe browser e -> etai cookie
+jotokkhon amra browsere connected thakbo totokkhon shb req and res e ei string as a identity hishabe thakbe
+ei identity mane string ta chole gele / hariye gele amra ar connected nai mane amra logged out
+that means
+log out korar jonne ei string ta hoy frontend nahoy backend theke muche felte hbe
+normally amra fronted theke muche feli
+
+ei jei whole time amra connected -> login to logout time -> session time 
+
+ei dui line  -->>
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+jeta frontend theke pathabo oita encoded hbe and unreadable data te convert hbe 

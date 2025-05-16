@@ -1,0 +1,61 @@
+/*
+
+5 types of selector
+    1)class selector
+    2)id selector
+    3)element selector
+    4)universal selector
+    5)grouping & attribute selector
+
+2 vabe vag korte pari
+    1)span -> small ekta portion e style add
+    2)div -> onk big ekta portionk style add     
+  
+
+*/
+
+/* universal selector */
+*{
+    margin: 5px;
+    padding: 5px 5px;
+
+}
+
+/* class selector */
+.box{
+    text-align: left;
+    color: red;
+    background-color: darkgrey;
+    font-size: large;
+    border: 10px solid;
+}
+
+
+/* id selector */
+#para1{
+    background-color: chocolate;
+    color: aqua;
+}
+
+
+/*element selector */
+li{
+    color: green;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* texter vitor ekta particular portion k style korte chai  */
+.small{
+    color: black;
+}
+
+/* onk boro ekta portione style korte chaile */
+.full{
+    font-style: italic;
+}
+
+
+
+
+

@@ -1,0 +1,6 @@
+way of fake data load 
+  1. client side -> s just static mock data used in the frontend.
+  2. api.....github ->  real data from an external API, like GitHub.
+  3. swagger -> tool for mocking and testing API responses.
+  4. Actual data -> real-time data fetched from a live API or server.
+

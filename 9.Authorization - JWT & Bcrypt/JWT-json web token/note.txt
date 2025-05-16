@@ -1,0 +1,7 @@
+JWT is made up of three parts
+1. header
+2. payload
+3. signature
+
+
+looks like -> header.payload.signature

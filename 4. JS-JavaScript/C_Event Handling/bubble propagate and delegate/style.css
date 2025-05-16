@@ -1,0 +1,11 @@
+#section{
+    background-color: red;
+}
+
+#list-ul{
+    background-color: green;
+}
+
+#item-1, #item-2, #item-3, #item-4, #item-5, #item-6{
+    background-color: purple;
+}

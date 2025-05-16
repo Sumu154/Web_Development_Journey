@@ -1,0 +1,14 @@
+1. SimpleForm:
+  use form tag and onSubmit handler with event(e)
+  Form a access -> e.target.[name of input.feild].value
+
+2. IndividualControlledForm:
+  use individual field state
+
+3. AllControlledForm:
+  one object in a state holding all the input feilds
+
+4. RefForm->UncontrolledForm:
+
+5. HookForm:
+ use hook to handle states and submit and error

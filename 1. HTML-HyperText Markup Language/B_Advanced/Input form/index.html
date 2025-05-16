@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+ 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+
+        <main>
+            <section>
+                <h2> Please fill up the form </h2>
+
+                <!-- eta backend.. form ta fill up korle backend.php te chole jabe shb info gula-->
+                <form action="backend.php">           
+                    <label for="name">  
+                        Your name: <input type="text" placeholder="Your name" id="name" name="name">
+                    </label>
+
+                    <label for="name">
+                        Your email: <input type="email" placeholder="Your email" id="email" name="email">
+                    </label>
+
+                    <label for="phone">
+                        Your phone: <input type="text" placeholder="Your phone" id="phone" name="phone">
+                    </label>
+
+                    <label for="check">
+                        Did you pay fee: <input name="check" type="checkbox" id="check">
+                    </label>
+
+                    <label for="gender">
+                        Gender: <input type="radio" name="gender" id="male"> Male
+                                <input type="radio" name="gender" id="female"> Female
+                                <input type="radio" name="gender" id="other"> Other    
+
+                    </label>
+
+                    <fieldset>
+                        <legend> Pick one pitha </legend>
+                        <label for="chitoy"> 
+                            <input type="radio" name="chitoy" id="chitoy"> Chitoy
+                        </label>
+
+                        <label for="vapa"> 
+                            <input type="radio" name="vapa" id="vapa"> Vapa
+                        </label>
+
+                        <label for="puli"> 
+                            <input type="radio" name="puli" id="puli"> Puli
+                        </label>
+                    </fieldset>
+
+
+                    <fieldset>
+                        <legend> Pick one or more vorta </legend>
+
+                        <label for="sorisa"> 
+                            <input type="checkbox" name="vorta" id="sorisa"> Sorisa
+                        </label>
+
+                        <label for="shutki"> 
+                            <input type="checkbox" name="vorta" id="shutki"> Shutki
+                        </label>
+                        
+                        <label for="sorisa"> 
+                            <input type="checkbox" name="vorta" id="chilli"> Chilli
+                        </label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Special instruction </legend>
+                        <textarea cols="30" rows="2" name="" id="" ></textarea>
+
+                    </fieldset>
+
+                    <input type="submit" value="Submit!">
+                    <input type="reset" value="Reset!">
+
+                </form>
+            </section>
+
+
+
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+
+
+    </body>
+
+
+</html>

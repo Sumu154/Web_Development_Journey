@@ -1,0 +1,7 @@
+steps for firebase
+1.  create a project in firebase
+2. save the method,,email/pass or google facebook 
+3. go to firebase docs
+4. create firebase.config.js and paste that things -> ekhane auth take export korte hbe jeta AuthProvider e import korbo
+6. AuthProvider e auth and import kore function call korbo and evabe context create korlam,,shb share kore dibo main e
+7. ekhn eshb shared function and value jekhane jekhane lagbe shekhane shekhane import kore use korbo 

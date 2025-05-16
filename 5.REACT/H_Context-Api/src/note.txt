@@ -1,0 +1,4 @@
+step 3 ta
+1. Context banabo -> but Component er cheye ektu different way te
+2.  main.jsx e import kore wrap korbo jate shb element theke access korte pari
+3. jekhane lagbe sekhane import kore use korbo

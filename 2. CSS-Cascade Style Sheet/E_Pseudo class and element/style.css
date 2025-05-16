@@ -1,0 +1,44 @@
+/* pseudo class */
+.pseudo-class, .pseudo-element{
+    font-size: 24px;
+}
+
+.pseudo-one a:visited{
+    color: green;
+}
+
+.pseudo-two:hover{
+    color: rebeccapurple;
+    background-color: antiquewhite;
+}
+
+.pseudo-three:active{
+    color: red;
+}
+
+.pseudo-four:focus{
+    color: red;
+    background-color: aqua;
+    outline: 0;
+    border: 1px solid red;
+}
+
+
+/* pseudo elements */
+.pseudo-element li::after{
+    content: '.pdf';
+    color: blueviolet;
+}   
+.pseudo-element li::first-letter{
+    font-size: 2em;
+}
+.pseudo-element li::before{
+    content: 'start: ';
+    color: darkgreen;
+}
+
+.pseudo-element li::selection{
+    background-color: blueviolet;
+}
+
+
