@@ -1,0 +1,15 @@
+user
+---------
+role with login privilege
+
+🧠 Role = group or abstract identity
+🧠 User = role that can log in and act directly
+
+💡💡in shell💡💡
+----------------
+user and role create kora->
+create user user1 with login encrypted password '123456';
+create role role1 with login encrypted password '123456';
+
+💡 Give permission to the user
+grant all privileges on table test_table to user1;

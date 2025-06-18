@@ -1,0 +1,4 @@
+💡 \du -> see all users
+💡 \l -> see all database
+💡 \d -> see all tables
+

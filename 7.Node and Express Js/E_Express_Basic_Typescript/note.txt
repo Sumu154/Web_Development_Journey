@@ -1,0 +1,25 @@
+0. npm init -y
+1. express and typescript install
+npm install -D typescript ts-node-dev @types/node @types/express
+npm install express
+
+2. create tsconfig.json
+npx tsc --init
+src and dist file directory dite hbe
+
+3. app.ts and server.ts create
+app.ts     -> Express app setup
+server.ts  -> Start the server
+
+4. other npm install
+npm install cors dotenv cookie-parser jsonwebtoken mongoose ejs
+npm install -D @types/express @types/cors @types/node @types/cookie-parser @types/jsonwebtoken  
+-> for type support
+
+
+5. "scripts": {
+  "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+} -> for start and auto restart server
+
+6. to start server
+npm run dev
