@@ -158,11 +158,24 @@ db.Basic.updateOne(
 
 
 
+// embedded Vs Referencing
+// emdedded -> 1To1, small data size, atomic updates, frequent data reading
+// referencing -> 1ToMany, ManyToMany, frequent writing, big data size, flexibility
+// db.users.aggregate([
+//   {
+//     $lookup: {
+//       from: "orders",
+//       localField: "_id",
+//       foreignField: "userId",
+//       as: "userOrders"
+//     }
+//   }
+// ])
 
 
-//---------Delete----------
-
-
+// indexing, COLLSCAN vs IXSCAN
+db.users.createIndex({ age: 1 })
+db.users.find({ age: 30 })  // ➤ IXSCAN
 
 
 
