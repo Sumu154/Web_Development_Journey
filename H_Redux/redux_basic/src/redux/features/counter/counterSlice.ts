@@ -1,7 +1,8 @@
+import type { CounterState } from "@/types/couter";
 import { createSlice } from "@reduxjs/toolkit";
 
 
-const initialState = {
+const initialState: CounterState = {
   count: 0,
 }
 
@@ -21,7 +22,5 @@ const counterSlice = createSlice({
 })
 
 export const { makeIncrement, makeDecrement } = counterSlice.actions;
-
-
 export default counterSlice.reducer;
 // counterSlice.reducer ke export korte hbe as counterReducer

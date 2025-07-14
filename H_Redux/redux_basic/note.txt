@@ -1,0 +1,5 @@
+1. Basic react vite project setup dibo
+2. Redux toolkit install 
+3. store setup and connect in main.tsx -> then check @@INIT ashce kina -> ashle okay
+4. store.ts e join korbo reducer ke
+ekahne jemon counterSlice there reducer ene 
