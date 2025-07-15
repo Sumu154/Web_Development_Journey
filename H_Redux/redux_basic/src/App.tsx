@@ -4,6 +4,7 @@ import { makeDecrement, makeIncrement } from './redux/features/counter/counterSl
 import { useAppDispatch, useAppSelector } from './redux/hook';
 import { Button } from './components/ui/button';
 import { ModeToggle } from './components/mode-toggler';
+import { useGetUsersQuery } from './redux/features/user/userApi';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   const dispatch = useAppDispatch();
   // age useState diye state banaitam but ekhn evabe korbo
   const { count } = useAppSelector((state) => state.counter)
-
+  const { data: users, isLoading } = useGetUsersQuery();
 
   const handleIncrement = (amount: number) => {
     dispatch(makeIncrement(amount));
@@ -19,6 +20,8 @@ function App() {
   const handleDecrement = (amount: number) => {
     dispatch(makeDecrement(amount));
   }
+
+  
   
 
   return (
@@ -31,6 +34,11 @@ function App() {
       </div>
 
       <Button> Button </Button>
+
+
+      {/* showing user */}
+     
+
     </>
   )
 }
