@@ -1,7 +1,7 @@
-1️⃣ install stripe and stripe react
-2️⃣ card element craete
-3️⃣ pk and sk nibo
-4️⃣ pk use kore card information pabo
-5️⃣
-6️⃣
-7️⃣
+1️. install stripe and stripe react
+2️. card element craete
+3️. pk and sk nibo
+4️. pk use kore card information pabo
+5️. 
+6️. 
+7️. 
