@@ -1,0 +1,16 @@
+1. nest new .
+
+2. 
+nest generate app orders
+nest generate app billing
+nest generate app auth
+
+3. nest g library common
+
+4. 
+npm uninstall prettier
+npm uninstall --save-dev prettier
+remove this -> eslintPluginPrettierRecommended from eslint
+
+5.Docker 
+docker-compose up -build -V 
