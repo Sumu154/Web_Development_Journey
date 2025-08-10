@@ -1,0 +1,4 @@
+1. pull the image
+docker pull hello-world
+
+2. docker run hello-world
